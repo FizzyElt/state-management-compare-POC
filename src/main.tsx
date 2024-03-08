@@ -10,6 +10,6 @@ import * as Option from "fp-ts/Option";
 // );
 
 pipe(
-	Option.fromNullable(document.getElementById("root")),
-	Option.map((root) => ReactDOM.createRoot(root).render(<App />)),
+  Option.fromNullable(document.getElementById("root")),
+  Option.map((root) => ReactDOM.createRoot(root).render(<App />)),
 );
